@@ -1,0 +1,30 @@
+:root {
+    --background-color: #EEE;
+    --item-background-color: #CCC;
+    --text-color: #222222;
+
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 300;
+}
+
+hr {
+    border: solid #222 0.05rem;
+    margin: 0;
+}
+
+h1, h2 {
+    font-weight: 400;
+    margin: 0;
+}
+
+.page-item-container {
+    padding: 0.5rem;
+    background-color: var(--item-background-color);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+    filter: drop-shadow(0.2rem 0.2rem 0.1rem #000);
+}
